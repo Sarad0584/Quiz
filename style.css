@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.quiz-container {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.option {
+    padding: 10px;
+    margin: 5px 0;
+    background: #e3e3e3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background: #ccc;
+}
+
+.correct {
+    background: #90ee90;
+}
+
+.wrong {
+    background: #ff7f7f;
+}
